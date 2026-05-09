@@ -1,0 +1,29 @@
+{
+  "name": "aws-ci-cd-pipeline",
+  "version": "1.0.0",
+  "description": "CI/CD pipeline project deploying app to AWS EC2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udayaleno-lang/aws-ci-cd-pipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/udayaleno-lang/aws-ci-cd-pipeline/issues"
+  },
+  "homepage": "https://github.com/udayaleno-lang/aws-ci-cd-pipeline#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}
